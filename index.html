@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Sales</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2>Interested in our<br><span>business pricing?</span></h2>
+      <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+    </header>
+
+    <form class="form">
+      <div class="row">
+        <div class="input-group">
+          <label>Name</label>
+          <input type="text" placeholder="Ethan Johnson" required />
+        </div>
+        <div class="input-group">
+          <label>Company Email</label>
+          <input type="email" placeholder="ethan@johnson.com" required />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-group">
+          <label>Company Size</label>
+          <select required>
+            <option value="" disabled selected>Select size</option>
+            <option>1-10 employees</option>
+            <option>10-50 employees</option>
+            <option>50-100 employees</option>
+            <option>100+ employees</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label>Subject</label>
+          <select required>
+            <option value="" disabled selected>Select subject</option>
+            <option>Building Landing pages</option>
+            <option>Marketing Strategy</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Message</label>
+        <textarea placeholder="Your message..." required></textarea>
+      </div>
+
+      <button type="submit">Contact Sales</button>
+    </form>
+  </div>
+</body>
+</html>
